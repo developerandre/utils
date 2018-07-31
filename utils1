@@ -8,6 +8,11 @@ en radians => (0 - deg) * 0.0174533
 x = origin.dx + (cos(angle) * radius)
 y = origin.dy + (sin(angle) * radius)
 
+******* Pour calculer l'angle d'un radial autour d'une vue(widget comme c'est souvent le cas pour un FAB Button)
+ let nbreRadial = 5 // nbre de radial autour du widget
+ let index = 1 // entre 1 et 4(nbreRadial -1) est le nth element Radial
+ -PI -2 + (index * 2 * PI /nbreRadial)
+
 **** Determiner l'index de l'element au milieu d'un tableau(ordonné) ****
 var startIndex = 0;endIndex = tab.length -1;
 const middleIndex = startIndex + Math.floor((endIndex - startIndex) / 2);
