@@ -4,7 +4,7 @@ var deg = 12.0; // entre 0 et 180
 en radians => (0 - deg) * 0.0174533
 0.0174533 radians = 1 deg
 
-******* Pour calculer le centre d'une vue(widget) par rapport à une origine *******
+******* Pour calculer le centre d'une vue(widget) par rapport à une origine (exple d'un radial autour d'un FAB Button) *******
 x = origin.dx + (cos(angle) * radius)
 y = origin.dy + (sin(angle) * radius)
 
