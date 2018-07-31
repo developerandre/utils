@@ -4,6 +4,10 @@ var deg = 12.0; // entre 0 et 180
 en radians => (0 - deg) * 0.0174533
 0.0174533 radians = 1 deg
 
+******* Pour calculer le centre d'une vue(widget) par rapport à une origine *******
+x = origin.dx + (cos(angle) * radius)
+y = origin.dy + (sin(angle) * radius)
+
 **** Determiner l'index de l'element au milieu d'un tableau(ordonné) ****
 var startIndex = 0;endIndex = tab.length -1;
 const middleIndex = startIndex + Math.floor((endIndex - startIndex) / 2);
